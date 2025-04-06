@@ -6,6 +6,7 @@ import ImageSlider from './Components/ImageSlider'
 import Timer from './Components/Timer'
 import CountdownTimer from './Components/CountdownTimer'
 import Counter from './Components/Counter'
+import FetchWithAxios from './Components/FetchWithAxios'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       {/* <Timer duration={2 * 24 * 60 * 60 * 1000}/>
       <ImageSlider/> */}
       {/* <CountdownTimer /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <FetchWithAxios />
     </>
   )
 }
