@@ -7,6 +7,7 @@ import Timer from './Components/Timer'
 import CountdownTimer from './Components/CountdownTimer'
 import Counter from './Components/Counter'
 import FetchWithAxios from './Components/FetchWithAxios'
+import FetchFromHook from './Components/FetchFromHook'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <ImageSlider/> */}
       {/* <CountdownTimer /> */}
       {/* <Counter /> */}
-      <FetchWithAxios />
+      {/* <FetchWithAxios /> */}
+      <FetchFromHook />
     </>
   )
 }
