@@ -8,6 +8,8 @@ import CountdownTimer from './Components/CountdownTimer'
 import Counter from './Components/Counter'
 import FetchWithAxios from './Components/FetchWithAxios'
 import FetchFromHook from './Components/FetchFromHook'
+import AutoComplete from './Components/AutoComplete'
+import FetchPost from './Components/FetchPost'
 
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
       {/* <CountdownTimer /> */}
       {/* <Counter /> */}
       {/* <FetchWithAxios /> */}
-      <FetchFromHook />
+      {/* <FetchFromHook /> */}
+      {/* <AutoComplete /> */}
+      <FetchPost />
     </>
   )
 }
