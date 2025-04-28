@@ -21,8 +21,8 @@ function App() {
       {/* <Counter /> */}
       {/* <FetchWithAxios /> */}
       {/* <FetchFromHook /> */}
-      {/* <AutoComplete /> */}
-      <FetchPost />
+      <AutoComplete />
+      {/* <FetchPost /> */}
     </>
   )
 }
