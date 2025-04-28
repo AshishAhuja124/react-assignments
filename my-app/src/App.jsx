@@ -10,6 +10,7 @@ import FetchWithAxios from './Components/FetchWithAxios'
 import FetchFromHook from './Components/FetchFromHook'
 import AutoComplete from './Components/AutoComplete'
 import FetchPost from './Components/FetchPost'
+import FetchRecipes from './Components/FetchRecipes'
 
 function App() {
 
@@ -21,8 +22,9 @@ function App() {
       {/* <Counter /> */}
       {/* <FetchWithAxios /> */}
       {/* <FetchFromHook /> */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
       {/* <FetchPost /> */}
+      <FetchRecipes />
     </>
   )
 }
