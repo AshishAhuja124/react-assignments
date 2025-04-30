@@ -11,6 +11,7 @@ import FetchFromHook from './Components/FetchFromHook'
 import AutoComplete from './Components/AutoComplete'
 import FetchPost from './Components/FetchPost'
 import FetchRecipes from './Components/FetchRecipes'
+import ChipInputs from './Components/ChipInputs'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
       {/* <FetchFromHook /> */}
       {/* <AutoComplete /> */}
       {/* <FetchPost /> */}
-      <FetchRecipes />
+      {/* <FetchRecipes /> */}
+      <ChipInputs />
     </>
   )
 }
